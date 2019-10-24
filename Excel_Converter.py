@@ -234,7 +234,7 @@ class Example(QMainWindow):
         self.label_1.setFont(QFont("Sans Serif", 24, QFont.Bold))
         self.label_1.setStyleSheet(
             "QLabel{color:darkblue;background:darkgray;border-radius: 5px; border: 1px ; }")
-        self.label_1.setText('                          Infineon Excel File Converter')
+        self.label_1.setText('                          Excel File Converter')
         self.label_1.setGeometry(10, 45, 900, 80)
 
         self.label_2 = QLabel(self)
@@ -284,7 +284,7 @@ class Example(QMainWindow):
         helpMenu.addAction(help)
         helpMenu.triggered.connect(self.helpDialog)
         self.setFixedSize(920, 900)
-        self.setWindowTitle('Infineon\'s Excel Converter')
+        self.setWindowTitle('Excel Converter')
 
 
         self.setStyleSheet("""
