@@ -1,3 +1,8 @@
+#!/usr/bin/python
+# Code generated for pattern detection
+# Author: Nahid Akhtar
+# Email: nahid.saarland@gmail.com
+##################################################################################################################################
 import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
@@ -24,7 +29,6 @@ from openpyxl.workbook import Workbook as openpyxlWorkbook
 import time
 from fnmatch import fnmatch
 from PyQt5.QtCore import QThread, pyqtSignal
-#file = str(QFileDialog.getExistingDirectory(self, "Select Directory"))
 #########################################################################################################################
 dir_name = None
 class Threaded(QObject):
