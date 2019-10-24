@@ -1,1 +1,1 @@
-# Converter-xls-to-xlsx
+# Converter .xls to .xlsx
